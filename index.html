@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS changer Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>change the css below the image</h1>
+        <span class="heading">
+            JavaScript
+        </span>
+        <div class="css-controller">
+            <label for="Base">Base Color</label>
+            <input type="color" name="base" id="base" value="#ff0000">
+
+            <label for="width">Width</label>
+            <input type="range" id="width" name="width" min="0" max="100" value="50" data-sizeing="%">
+
+            <label for="Border">Border Radius</label>
+            <input type="range" id="border-radius" name="border-radius" min="0" max="100" value="5" data-sizeing="px">
+
+            <label for="padding">Padding</label>
+            <input type="range" id="padding" name="padding" min="10" max="100" value="0" data-sizeing="px">
+
+            <label for="blur">Blur</label>
+            <input type="range" id="blur" name="blur" min="0" max="25" value="5" data-sizeing="px">
+        </div>
+        <img src="https://fatbirder.com/wp-content/uploads/2019/04/AndeanFlamingo.jpg" alt="Image from pix">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
